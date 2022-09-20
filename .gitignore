@@ -1,0 +1,6 @@
+/bitrix/
+/upload/
+/.htaccess
+/urlrewrite.php
+/.idea/
+/.DS_Store
