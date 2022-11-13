@@ -15,10 +15,11 @@ $this->setFrameMode(true);
 
 <?if($arParams["USE_RSS"]=="Y"):?>
 	<?
+	$rss_url = CComponentEngine::makePathFromTemplate($arResult["FOLDER"].$arResult["URL_TEMPLATES"]["rss_section"], array_map("urlencode", $arResult["VARIABLES"]));
 	if(method_exists($APPLICATION, 'addheadstring'))
-		$APPLICATION->AddHeadString('<link rel="alternate" type="application/rss+xml" title="'.$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["rss"].'" href="'.$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["rss"].'" />');
+		$APPLICATION->AddHeadString('<link rel="alternate" type="application/rss+xml" title="'.$rss_url.'" href="'.$rss_url.'" />');
 	?>
-	<a href="<?=$arResult["FOLDER"].$arResult["URL_TEMPLATES"]["rss"]?>" title="rss" target="_self"><img alt="RSS" src="<?=$templateFolder?>/images/gif-light/feed-icon-16x16.gif" border="0" align="right" /></a>
+	<a href="<?=$rss_url?>" title="rss" target="_self"><img alt="RSS" src="<?=$templateFolder?>/images/gif-light/feed-icon-16x16.gif" border="0" align="right" /></a>
 <?endif?>
 
 <?if($arParams["USE_SEARCH"]=="Y"):?>
@@ -54,7 +55,7 @@ $this->setFrameMode(true);
 <?endif?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
-	"category_list",
+	"",
 	Array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 		"IBLOCK_ID" => $arParams["IBLOCK_ID"],
@@ -65,9 +66,6 @@ $this->setFrameMode(true);
 		"SORT_ORDER2" => $arParams["SORT_ORDER2"],
 		"FIELD_CODE" => $arParams["LIST_FIELD_CODE"],
 		"PROPERTY_CODE" => $arParams["LIST_PROPERTY_CODE"],
-		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
-		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
-		"IBLOCK_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
 		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],
 		"SET_TITLE" => $arParams["SET_TITLE"],
 		"SET_LAST_MODIFIED" => $arParams["SET_LAST_MODIFIED"],
@@ -76,6 +74,7 @@ $this->setFrameMode(true);
 		"SHOW_404" => $arParams["SHOW_404"],
 		"FILE_404" => $arParams["FILE_404"],
 		"INCLUDE_IBLOCK_INTO_CHAIN" => $arParams["INCLUDE_IBLOCK_INTO_CHAIN"],
+		"ADD_SECTIONS_CHAIN" => $arParams["ADD_SECTIONS_CHAIN"],
 		"CACHE_TYPE" => $arParams["CACHE_TYPE"],
 		"CACHE_TIME" => $arParams["CACHE_TIME"],
 		"CACHE_FILTER" => $arParams["CACHE_FILTER"],
@@ -102,6 +101,13 @@ $this->setFrameMode(true);
 		"FILTER_NAME" => $arParams["FILTER_NAME"],
 		"HIDE_LINK_WHEN_NO_DETAIL" => $arParams["HIDE_LINK_WHEN_NO_DETAIL"],
 		"CHECK_DATES" => $arParams["CHECK_DATES"],
+		"STRICT_SECTION_CHECK" => $arParams["STRICT_SECTION_CHECK"],
+
+		"PARENT_SECTION" => $arResult["VARIABLES"]["SECTION_ID"],
+		"PARENT_SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
+		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+		"IBLOCK_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
 	),
 	$component
 );?>

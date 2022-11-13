@@ -3,8 +3,13 @@ require($_SERVER['DOCUMENT_ROOT'].'/bitrix/header.php');
 $APPLICATION->SetTitle("Главная");
 $APPLICATION->SetPageProperty("isMain","xzx");
 $APPLICATION->SetPageProperty("title","index");
-?><?$APPLICATION->IncludeComponent(
-	"bitrix:news",
+?>
+
+
+<?
+
+$APPLICATION->IncludeComponent(
+	"anton:news",
 	"my_news",
 	Array(
 		"ADD_ELEMENT_CHAIN" => "N",

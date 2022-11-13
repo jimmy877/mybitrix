@@ -111,7 +111,7 @@ $APPLICATION->SetPageProperty("title","index");
         </section>
 
 
-<?$APPLICATION->IncludeComponent(
+<? $APPLICATION->IncludeComponent(
     "bitrix:news.list",
     "mainpage_main_activities",
     array(
