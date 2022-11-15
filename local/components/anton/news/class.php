@@ -233,7 +233,6 @@ class Antonnews extends CBitrixComponent
             $BX_NEWS_SECTION_URL = $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"];
             AddEventHandler("search", "OnSearchGetURL", array("CNewsTools","OnSearchGetURL"), 20);
         }
-
         $this->includeComponentTemplate($componentPage);
     }
 }

@@ -16,10 +16,12 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 $this->addExternalCss($this->GetFolder().'/themes/'.$arParams['TEMPLATE_THEME'].'/style.css');
 ?>
 
+
 <?php if ($arResult["ITEMS"] != null):?>
     <section class="project-count-area brand-bg pad-90">
         <div class="container">
             <div class="row">
+
                 <? foreach ($arResult["ITEMS"] as $item):?>
                     <div class="col-md-3 col-sm-3">
                         <div class="single-count white-text text-center">
@@ -29,9 +31,10 @@ $this->addExternalCss($this->GetFolder().'/themes/'.$arParams['TEMPLATE_THEME'].
                         </div>
                     </div>
                 <?endforeach;?>
+
             </div>
         </div>
     </section>
-    <pre><?php var_dump($arResult);?></pre>
+    <pre><?php //print_r($arResult);?></pre>
 
 <?php endif;?>

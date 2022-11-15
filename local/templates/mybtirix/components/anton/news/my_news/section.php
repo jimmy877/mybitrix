@@ -53,19 +53,29 @@ $this->setFrameMode(true);
 ?>
 <br />
 <?endif?>
+<?php
+    $directory = trim($APPLICATION->GetCurUri(), "/");
+    $directory = explode("/",$directory);
+    $directory = array_reverse($directory);
+?>
+
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.list",
-	"",
+	"category",
 	Array(
 		"IBLOCK_TYPE" => $arParams["IBLOCK_TYPE"],
 		"IBLOCK_ID" => $arParams["IBLOCK_ID"],
 		"NEWS_COUNT" => $arParams["NEWS_COUNT"],
+        "PARENT_SECTION_CODE" => $directory[0],
 		"SORT_BY1" => $arParams["SORT_BY1"],
 		"SORT_ORDER1" => $arParams["SORT_ORDER1"],
 		"SORT_BY2" => $arParams["SORT_BY2"],
 		"SORT_ORDER2" => $arParams["SORT_ORDER2"],
 		"FIELD_CODE" => $arParams["LIST_FIELD_CODE"],
 		"PROPERTY_CODE" => $arParams["LIST_PROPERTY_CODE"],
+		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
+		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
+		"IBLOCK_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
 		"DISPLAY_PANEL" => $arParams["DISPLAY_PANEL"],
 		"SET_TITLE" => $arParams["SET_TITLE"],
 		"SET_LAST_MODIFIED" => $arParams["SET_LAST_MODIFIED"],
@@ -74,7 +84,6 @@ $this->setFrameMode(true);
 		"SHOW_404" => $arParams["SHOW_404"],
 		"FILE_404" => $arParams["FILE_404"],
 		"INCLUDE_IBLOCK_INTO_CHAIN" => $arParams["INCLUDE_IBLOCK_INTO_CHAIN"],
-		"ADD_SECTIONS_CHAIN" => $arParams["ADD_SECTIONS_CHAIN"],
 		"CACHE_TYPE" => $arParams["CACHE_TYPE"],
 		"CACHE_TIME" => $arParams["CACHE_TIME"],
 		"CACHE_FILTER" => $arParams["CACHE_FILTER"],
@@ -101,13 +110,8 @@ $this->setFrameMode(true);
 		"FILTER_NAME" => $arParams["FILTER_NAME"],
 		"HIDE_LINK_WHEN_NO_DETAIL" => $arParams["HIDE_LINK_WHEN_NO_DETAIL"],
 		"CHECK_DATES" => $arParams["CHECK_DATES"],
-		"STRICT_SECTION_CHECK" => $arParams["STRICT_SECTION_CHECK"],
-
-		"PARENT_SECTION" => $arResult["VARIABLES"]["SECTION_ID"],
-		"PARENT_SECTION_CODE" => $arResult["VARIABLES"]["SECTION_CODE"],
-		"DETAIL_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["detail"],
-		"SECTION_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["section"],
-		"IBLOCK_URL" => $arResult["FOLDER"].$arResult["URL_TEMPLATES"]["news"],
 	),
 	$component
-);?>
+);
+
+?>
