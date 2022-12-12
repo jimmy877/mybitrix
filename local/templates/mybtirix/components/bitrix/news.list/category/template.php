@@ -1,4 +1,6 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+<?
+
+if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var array $arParams */
 /** @var array $arResult */
 /** @global CMain $APPLICATION */
@@ -16,7 +18,16 @@ $this->addExternalCss("/bitrix/css/main/font-awesome.css");
 $this->addExternalCss($this->GetFolder().'/themes/'.$arParams['TEMPLATE_THEME'].'/style.css');
 ?>
 
-
+<?php
+    if(!isset($arResult["SECTION"]) or $arResult["SECTION"] == null or $arResult["SECTION"] == ""){
+        $APPLICATION->RestartBuffer();
+        CHTTP::SetStatus("404 Not Found");
+        include($_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/header.php");
+        include($_SERVER["DOCUMENT_ROOT"]."/405.php");
+        include($_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/footer.php");
+        die();
+    }
+?>
 <?php if ($arResult["ITEMS"] != null):?>
     <section class="project-count-area brand-bg pad-90">
         <div class="container">
