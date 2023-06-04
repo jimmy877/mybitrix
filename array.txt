@@ -1,0 +1,721 @@
+Array
+(
+    [PRIORITY] => 1
+    [TITLE] => caspian.academy — Баги (Экстранет)
+    [DESCRIPTION] => Баги Экстранета фиксируются в таблице:
+[URL=https://docs.google.com/spreadsheets/d/1TmCJz_o8Ctuz97VdYzozPnFk-4WpBKY-Q9vytegJXJs/edit?usp=sharing]https://docs.google.com/spreadsheets/d/1TmCJz_o8Ctuz97VdYzozPnFk-4WpBKY-Q9vytegJXJs/edit?usp=sharing[/URL]
+
+    [UF_TASK_WEBDAV_FILES] => Array
+        (
+            [0] =>
+        )
+
+    [DEADLINE] => 02.03.2023 19:00:00
+    [START_DATE_PLAN] =>
+    [DURATION_TYPE] => days
+    [END_DATE_PLAN] =>
+    [ALLOW_CHANGE_DEADLINE] => 1
+    [MATCH_WORK_TIME] =>
+    [TASK_CONTROL] =>
+    [SE_PARAMETER] => Array
+        (
+            [1] => Array
+                (
+                    [VALUE] => N
+                    [ID] => 136190
+                    [CODE] => 1
+                )
+
+            [2] => Array
+                (
+                    [VALUE] => N
+                    [ID] => 136191
+                    [CODE] => 2
+                )
+
+            [3] => Array
+                (
+                    [VALUE] => Y
+                    [ID] => 136192
+                    [CODE] => 3
+                )
+
+        )
+
+    [SE_PROJECT] => Array
+        (
+            [ID] => 399
+        )
+
+    [ALLOW_TIME_TRACKING] => Y
+    [TIME_ESTIMATE] => 0
+    [REPLICATE] =>
+    [SE_PARENTTASK] => Array
+        (
+            [ID] => 24477
+        )
+
+    [EPIC] => 0
+    [UF_AUTO_159743646329] => 1
+    [UF_AUTO_210647403444] =>
+    [UF_AUTO_288848610725] =>
+    [UF_AUTO_142615379319] => 03.02 — 16.02
+    [UF_AUTO_261235705831] =>
+    [UF_AUTO_378273767768] =>
+    [CREATED_BY] => 2204
+    [AUDITORS] => Array
+        (
+            [0] => 13
+            [1] => 747
+            [2] => 2099
+        )
+
+    [ACCOMPLICES] => Array
+        (
+            [0] => 2099
+            [1] => 2111
+        )
+
+    [TAGS] => Array
+        (
+        )
+
+    [CHECKLIST] => Array
+        (
+        )
+
+    [DEPENDS_ON] => Array
+        (
+        )
+
+    [GROUP_ID] => 399
+    [RESPONSIBLE_ID] => 2185
+    [OUTLOOK_VERSION] => 13
+    [CHANGED_BY] => 13
+    [CHANGED_DATE] => 01.03.2023 19:39:12
+    [DURATION_PLAN] => 0
+    [ID] => 26129
+    [META:PREV_FIELDS] => Array
+        (
+            [ID] => 26129
+            [TITLE] => caspian.academy — Баги (Экстранет)
+            [DESCRIPTION] => Баги Экстранета фиксируются в таблице:
+[URL=https://docs.google.com/spreadsheets/d/1TmCJz_o8Ctuz97VdYzozPnFk-4WpBKY-Q9vytegJXJs/edit?usp=sharing]https://docs.google.com/spreadsheets/d/1TmCJz_o8Ctuz97VdYzozPnFk-4WpBKY-Q9vytegJXJs/edit?usp=sharing[/URL]
+
+            [DESCRIPTION_IN_BBCODE] => Y
+            [DECLINE_REASON] =>
+            [PRIORITY] => 1
+            [STATUS] => -3
+            [NOT_VIEWED] => N
+            [STATUS_COMPLETE] => 1
+            [REAL_STATUS] => 2
+            [MULTITASK] => N
+            [STAGE_ID] => 5138
+            [RESPONSIBLE_ID] => 2185
+            [RESPONSIBLE_NAME] => Никита
+            [RESPONSIBLE_LAST_NAME] => Базанов
+            [RESPONSIBLE_SECOND_NAME] => Андреевич
+            [RESPONSIBLE_LOGIN] => bna@one-touch.ru
+            [RESPONSIBLE_WORK_POSITION] => Программист
+            [RESPONSIBLE_PHOTO] => 550328
+            [DATE_START] =>
+            [DURATION_FACT] => 1490
+            [TIME_ESTIMATE] => 0
+            [TIME_SPENT_IN_LOGS] => 89400
+            [REPLICATE] => N
+            [DEADLINE] => 02.03.2023 19:00:00
+            [DEADLINE_ORIG] => 2023-03-02 19:00:00
+            [START_DATE_PLAN] =>
+            [END_DATE_PLAN] =>
+            [CREATED_BY] => 2204
+            [CREATED_BY_NAME] => Марго
+            [CREATED_BY_LAST_NAME] => Росс
+            [CREATED_BY_SECOND_NAME] =>
+            [CREATED_BY_LOGIN] => rma@one-touch.ru
+            [CREATED_BY_WORK_POSITION] => Project Manager
+            [CREATED_BY_PHOTO] => 540755
+            [CREATED_DATE] => 15.02.2023 17:56:00
+            [CHANGED_BY] => 2204
+            [CHANGED_DATE] => 28.02.2023 17:26:53
+            [STATUS_CHANGED_BY] => 2204
+            [STATUS_CHANGED_DATE] => 28.02.2023 17:26:53
+            [CLOSED_BY] =>
+            [CLOSED_DATE] =>
+            [ACTIVITY_DATE] => 01.03.2023 14:12:50
+            [GUID] => {f6a1812d-77af-4b42-b0c4-aee189486fb7}
+            [XML_ID] =>
+            [MARK] =>
+            [ALLOW_CHANGE_DEADLINE] => Y
+            [ALLOW_TIME_TRACKING] => Y
+            [MATCH_WORK_TIME] => N
+            [TASK_CONTROL] => N
+            [ADD_IN_REPORT] => N
+            [GROUP_ID] => 399
+            [FORUM_TOPIC_ID] => 24335
+            [PARENT_ID] => 24477
+            [COMMENTS_COUNT] => 13
+            [SERVICE_COMMENTS_COUNT] => 2
+            [FORUM_ID] => 11
+            [SITE_ID] => s1
+            [SUBORDINATE] => Y
+            [EXCHANGE_MODIFIED] =>
+            [EXCHANGE_ID] =>
+            [OUTLOOK_VERSION] => 12
+            [VIEWED_DATE] => 01.03.2023 19:39:08
+            [DEADLINE_COUNTED] => 0
+            [FORKED_BY_TEMPLATE_ID] =>
+            [FAVORITE] => N
+            [SORTING] => -2096256.7656593
+            [DURATION_PLAN_SECONDS] => 0
+            [DURATION_TYPE_ALL] => days
+            [DURATION_PLAN] => 0
+            [DURATION_TYPE] => days
+            [IS_MUTED] => N
+            [IS_PINNED] => N
+            [IS_PINNED_IN_GROUP] => N
+            [UF_CRM_TASK] =>
+            [UF_TASK_WEBDAV_FILES] => Array
+                (
+                )
+
+            [UF_MAIL_MESSAGE] =>
+            [UF_AUTO_261235705831] =>
+            [UF_AUTO_142615379319] => 03.02 — 16.02
+            [UF_AUTO_378273767768] =>
+            [UF_AUTO_159743646329] => 1
+            [UF_AUTO_288848610725] =>
+            [UF_AUTO_210647403444] =>
+            [AUDITORS] => Array
+                (
+                    [0] => 13
+                    [1] => 747
+                    [2] => 2099
+                )
+
+            [ACCOMPLICES] => Array
+                (
+                    [0] => 2099
+                    [1] => 2111
+                )
+
+            [TAGS] => Array
+                (
+                )
+
+            [CHECKLIST] => Array
+                (
+                )
+
+            [FILES] => Array
+                (
+                )
+
+            [DEPENDS_ON] => Array
+                (
+                )
+
+        )
+
+)
+
+
+------------
+
+
+Array
+(
+    [ID] => 26094
+    [TITLE] => rudn.ru — админка: перенос стилей списка страниц на другие модули
+    [DESCRIPTION] => Задачу нужно взять в работу по завершению работ по родительской задаче.
+Что нужно сделать:
+1 Перенести стилизацию списков [URL=http://joxi.ru/823WbNT9NPok2O]http://joxi.ru/823WbNT9NPok2O[/URL] на подобные списки в других модулях: справочники, формы, патенты, стурктура и сотрудники рудн, образование, мероприятия, документы и так далее
+То есть все должно быть в едином виде, если есть подписи у кнопок, они везде одинаковые, если кнопка редактирвоать слева, то она везде слева. Если кнопка редактировать с иконок карандаша, то она везде с такой иконткой. Тоже самое касается и других элементов
+Скрин не стилизованного списка в справочнике [URL=http://joxi.ru/KAxpVZsZzydOA8]http://joxi.ru/KAxpVZsZzydOA8[/URL]
+Тут вообщени какой стилизации [URL=http://joxi.ru/L215v7TR7E5M2X]http://joxi.ru/L215v7TR7E5M2X[/URL]
+Тоже все в разнобой [URL=http://joxi.ru/p27ZOlFKlGMPm7]http://joxi.ru/p27ZOlFKlGMPm7[/URL]
+ну и так далее
+
+2 Помимо стилизации нужно исправить ошибку в мероприятиях, поменяв название и начало местами [URL=http://joxi.ru/zANMyKHvpeQR29]http://joxi.ru/zANMyKHvpeQR29[/URL]
+
+
+3 Сделать кнопки управления: участвовать в поиске, в карте сайта и отображение на сайте (активно) такими же кнопками, как в структуре, тут понадобится помощь бекенда. А тут даже иконки редактирования нет [URL=http://joxi.ru/GrqlzQh4e3ogAz]http://joxi.ru/GrqlzQh4e3ogAz[/URL]
+Прошу оценить этот пункт бекенду.
+
+4. Сделать подстановку id выбранной записи из дерева в урл страницы. Что бы можно было возвращаться полноценно в дерево кнопками назад в браузере, переходом по прямой ссылке и кнопке отмена в редактировании элемента (это уже работает).
+То есть кликаем сюда и в рул подставляется id [URL=http://joxi.ru/a2Xlx1hwnEd92g]http://joxi.ru/a2Xlx1hwnEd92g[/URL]
+
+
+
+    [DESCRIPTION_IN_BBCODE] => Y
+    [DECLINE_REASON] =>
+    [PRIORITY] => 1
+    [STATUS] => -1
+    [NOT_VIEWED] => N
+    [STATUS_COMPLETE] => 1
+    [REAL_STATUS] => 3
+    [MULTITASK] => N
+    [STAGE_ID] => 5423
+    [RESPONSIBLE_ID] => 2157
+    [RESPONSIBLE_NAME] => Максим
+    [RESPONSIBLE_LAST_NAME] => Логинов
+    [RESPONSIBLE_SECOND_NAME] =>
+    [RESPONSIBLE_LOGIN] => lmb@one-touch.ru
+    [RESPONSIBLE_WORK_POSITION] => Frontend
+    [RESPONSIBLE_PHOTO] => 524313
+    [DATE_START] => 13.02.2023 08:26:40
+    [DURATION_FACT] => 2934
+    [TIME_ESTIMATE] => 0
+    [TIME_SPENT_IN_LOGS] => 176106
+    [REPLICATE] => N
+    [DEADLINE] => 22.02.2023 19:00:00
+    [DEADLINE_ORIG] => 2023-02-22 19:00:00
+    [START_DATE_PLAN] =>
+    [END_DATE_PLAN] =>
+    [CREATED_BY] => 13
+    [CREATED_BY_NAME] => Антон
+    [CREATED_BY_LAST_NAME] => Глотов
+    [CREATED_BY_SECOND_NAME] => Юрьевич
+    [CREATED_BY_LOGIN] => gau@one-touch.ru
+    [CREATED_BY_WORK_POSITION] => Руководитель отдела разработки
+    [CREATED_BY_PHOTO] => 1129
+    [CREATED_DATE] => 10.02.2023 14:44:10
+    [CHANGED_BY] => 13
+    [CHANGED_DATE] => 01.03.2023 19:53:33
+    [STATUS_CHANGED_BY] => 13
+    [STATUS_CHANGED_DATE] => 13.02.2023 08:26:40
+    [CLOSED_BY] => 0
+    [CLOSED_DATE] =>
+    [ACTIVITY_DATE] => 01.03.2023 11:11:10
+    [GUID] => {6356bdcf-213c-4af3-8ccb-0140f325fb11}
+    [XML_ID] =>
+    [MARK] =>
+    [ALLOW_CHANGE_DEADLINE] => N
+    [ALLOW_TIME_TRACKING] => Y
+    [MATCH_WORK_TIME] => N
+    [TASK_CONTROL] => Y
+    [ADD_IN_REPORT] => N
+    [GROUP_ID] => 17
+    [FORUM_TOPIC_ID] => 24296
+    [PARENT_ID] => 25795
+    [COMMENTS_COUNT] => 27
+    [SERVICE_COMMENTS_COUNT] => 2
+    [FORUM_ID] => 11
+    [SITE_ID] => s1
+    [SUBORDINATE] => Y
+    [EXCHANGE_MODIFIED] =>
+    [EXCHANGE_ID] =>
+    [OUTLOOK_VERSION] => 7
+    [VIEWED_DATE] => 01.03.2023 19:55:15
+    [DEADLINE_COUNTED] => 0
+    [FORKED_BY_TEMPLATE_ID] =>
+    [FAVORITE] => N
+    [SORTING] => -2098432.7656326
+    [DURATION_PLAN_SECONDS] => 0
+    [DURATION_TYPE_ALL] => days
+    [DURATION_PLAN] => 0
+    [DURATION_TYPE] => days
+    [IS_MUTED] => N
+    [IS_PINNED] => N
+    [IS_PINNED_IN_GROUP] => N
+    [UF_CRM_TASK] =>
+    [UF_TASK_WEBDAV_FILES] => Array
+        (
+        )
+
+    [UF_MAIL_MESSAGE] =>
+    [UF_AUTO_261235705831] => Админка
+    [UF_AUTO_142615379319] => 03.02 — 16.02
+    [UF_AUTO_378273767768] =>
+    [UF_AUTO_159743646329] => 0
+    [UF_AUTO_288848610725] =>
+    [UF_AUTO_210647403444] =>
+    [AUDITORS] => Array
+        (
+            [0] => 1125
+            [1] => 1870
+            [2] => 2243
+        )
+
+    [ACCOMPLICES] => Array
+        (
+            [0] => 1763
+            [1] => 1782
+            [2] => 2099
+            [3] => 2158
+        )
+
+    [TAGS] => Array
+        (
+            [0] => rudn.ru — админка (рефакторинг)
+            [1] => rudn.ru — рефакторинг сайта
+        )
+
+    [CHECKLIST] => Array
+        (
+        )
+
+    [FILES] => Array
+        (
+        )
+
+    [DEPENDS_ON] => Array
+        (
+        )
+
+)
+
+-----------------------------------------------------------------
+  ar
+ Array
+ (
+     [PRIORITY] => 1
+     [TITLE] => r-eu.ru — тестовая задача
+     [DESCRIPTION] => текст описания задачи
+     [UF_TASK_WEBDAV_FILES] => Array
+         (
+             [0] =>
+         )
+
+     [DEADLINE] => 10.03.2023 19:00:00
+     [START_DATE_PLAN] =>
+     [DURATION_TYPE] => days
+     [END_DATE_PLAN] =>
+     [ALLOW_CHANGE_DEADLINE] =>
+     [MATCH_WORK_TIME] =>
+     [TASK_CONTROL] => 1
+     [SE_PARAMETER] => Array
+         (
+             [1] => Array
+                 (
+                     [VALUE] => N
+                     [ID] => 136586
+                     [CODE] => 1
+                 )
+
+             [2] => Array
+                 (
+                     [VALUE] => N
+                     [ID] => 136587
+                     [CODE] => 2
+                 )
+
+             [3] => Array
+                 (
+                     [VALUE] => N
+                     [ID] => 136588
+                     [CODE] => 3
+                 )
+
+         )
+
+     [SE_PROJECT] => Array
+         (
+             [ID] => 21
+         )
+
+     [ALLOW_TIME_TRACKING] => Y
+     [TIME_ESTIMATE] => 82800
+     [REPLICATE] =>
+     [SE_PARENTTASK] => Array
+         (
+             [ID] => 25554
+         )
+
+     [EPIC] => 0
+     [UF_AUTO_159743646329] => 0
+     [UF_AUTO_210647403444] => 10
+     [UF_AUTO_288848610725] => 15
+     [UF_AUTO_142615379319] => 03.03 — 17.03
+     [UF_AUTO_261235705831] =>
+     [UF_AUTO_378273767768] =>
+     [CREATED_BY] => 13
+     [AUDITORS] => Array
+         (
+         )
+
+     [ACCOMPLICES] => Array
+         (
+         )
+
+     [TAGS] => Array
+         (
+         )
+
+     [CHECKLIST] => Array
+         (
+         )
+
+     [DEPENDS_ON] => Array
+         (
+         )
+
+     [GROUP_ID] => 21
+     [RESPONSIBLE_ID] => 13
+     [OUTLOOK_VERSION] => 5
+     [CHANGED_BY] => 13
+     [CHANGED_DATE] => 04.03.2023 10:08:05
+     [DURATION_PLAN] => 0
+     [ID] => 26279
+     [META:PREV_FIELDS] => Array
+         (
+             [ID] => 26279
+             [TITLE] => r-eu.ru — тестовая задача
+             [DESCRIPTION] => текст описания задачи
+             [DESCRIPTION_IN_BBCODE] => Y
+             [DECLINE_REASON] =>
+             [PRIORITY] => 1
+             [STATUS] => 2
+             [NOT_VIEWED] => N
+             [STATUS_COMPLETE] => 1
+             [REAL_STATUS] => 2
+             [MULTITASK] => N
+             [STAGE_ID] => 0
+             [RESPONSIBLE_ID] => 13
+             [RESPONSIBLE_NAME] => Антон
+             [RESPONSIBLE_LAST_NAME] => Глотов
+             [RESPONSIBLE_SECOND_NAME] => Юрьевич
+             [RESPONSIBLE_LOGIN] => gau@one-touch.ru
+             [RESPONSIBLE_WORK_POSITION] => Руководитель отдела разработки
+             [RESPONSIBLE_PHOTO] => 1129
+             [DATE_START] =>
+             [DURATION_FACT] =>
+             [TIME_ESTIMATE] => 82800
+             [TIME_SPENT_IN_LOGS] =>
+             [REPLICATE] => N
+             [DEADLINE] => 10.03.2023 19:00:00
+             [DEADLINE_ORIG] => 2023-03-10 19:00:00
+             [START_DATE_PLAN] =>
+             [END_DATE_PLAN] =>
+             [CREATED_BY] => 13
+             [CREATED_BY_NAME] => Антон
+             [CREATED_BY_LAST_NAME] => Глотов
+             [CREATED_BY_SECOND_NAME] => Юрьевич
+             [CREATED_BY_LOGIN] => gau@one-touch.ru
+             [CREATED_BY_WORK_POSITION] => Руководитель отдела разработки
+             [CREATED_BY_PHOTO] => 1129
+             [CREATED_DATE] => 04.03.2023 10:01:10
+             [CHANGED_BY] => 13
+             [CHANGED_DATE] => 04.03.2023 10:06:19
+             [STATUS_CHANGED_BY] => 13
+             [STATUS_CHANGED_DATE] => 04.03.2023 10:06:19
+             [CLOSED_BY] =>
+             [CLOSED_DATE] =>
+             [ACTIVITY_DATE] => 04.03.2023 10:01:10
+             [GUID] => {f362d760-609c-4226-b950-a6cbb21a5e70}
+             [XML_ID] =>
+             [MARK] =>
+             [ALLOW_CHANGE_DEADLINE] => N
+             [ALLOW_TIME_TRACKING] => Y
+             [MATCH_WORK_TIME] => N
+             [TASK_CONTROL] => Y
+             [ADD_IN_REPORT] => N
+             [GROUP_ID] => 21
+             [FORUM_TOPIC_ID] =>
+             [PARENT_ID] => 25554
+             [COMMENTS_COUNT] =>
+             [SERVICE_COMMENTS_COUNT] =>
+             [FORUM_ID] =>
+             [SITE_ID] => s1
+             [SUBORDINATE] => Y
+             [EXCHANGE_MODIFIED] =>
+             [EXCHANGE_ID] =>
+             [OUTLOOK_VERSION] => 4
+             [VIEWED_DATE] => 04.03.2023 10:07:56
+             [DEADLINE_COUNTED] => 0
+             [FORKED_BY_TEMPLATE_ID] =>
+             [FAVORITE] => N
+             [SORTING] => -2101264.7509766
+             [DURATION_PLAN_SECONDS] => 0
+             [DURATION_TYPE_ALL] => days
+             [DURATION_PLAN] => 0
+             [DURATION_TYPE] => days
+             [IS_MUTED] => N
+             [IS_PINNED] => N
+             [IS_PINNED_IN_GROUP] => N
+             [UF_CRM_TASK] =>
+             [UF_TASK_WEBDAV_FILES] => Array
+                 (
+                 )
+
+             [UF_MAIL_MESSAGE] =>
+             [UF_AUTO_261235705831] =>
+             [UF_AUTO_142615379319] => 03.03 — 16.03
+             [UF_AUTO_378273767768] =>
+             [UF_AUTO_159743646329] => 0
+             [UF_AUTO_288848610725] => 15
+             [UF_AUTO_210647403444] => 10
+             [AUDITORS] => Array
+                 (
+                 )
+
+             [ACCOMPLICES] => Array
+                 (
+                 )
+
+             [TAGS] => Array
+                 (
+                 )
+
+             [CHECKLIST] => Array
+                 (
+                 )
+
+             [FILES] => Array
+                 (
+                 )
+
+             [DEPENDS_ON] => Array
+                 (
+                 )
+
+         )
+
+ )
+  event
+ Array
+ (
+     [ID] => 26279
+     [TITLE] => r-eu.ru — тестовая задача
+     [DESCRIPTION] => текст описания задачи
+     [DESCRIPTION_IN_BBCODE] => Y
+     [DECLINE_REASON] =>
+     [PRIORITY] => 1
+     [STATUS] => 2
+     [NOT_VIEWED] => N
+     [STATUS_COMPLETE] => 1
+     [REAL_STATUS] => 2
+     [MULTITASK] => N
+     [STAGE_ID] => 0
+     [RESPONSIBLE_ID] => 13
+     [RESPONSIBLE_NAME] => Антон
+     [RESPONSIBLE_LAST_NAME] => Глотов
+     [RESPONSIBLE_SECOND_NAME] => Юрьевич
+     [RESPONSIBLE_LOGIN] => gau@one-touch.ru
+     [RESPONSIBLE_WORK_POSITION] => Руководитель отдела разработки
+     [RESPONSIBLE_PHOTO] => 1129
+     [DATE_START] =>
+     [DURATION_FACT] =>
+     [TIME_ESTIMATE] => 82800
+     [TIME_SPENT_IN_LOGS] =>
+     [REPLICATE] => N
+     [DEADLINE] => 10.03.2023 19:00:00
+     [DEADLINE_ORIG] => 2023-03-10 19:00:00
+     [START_DATE_PLAN] =>
+     [END_DATE_PLAN] =>
+     [CREATED_BY] => 13
+     [CREATED_BY_NAME] => Антон
+     [CREATED_BY_LAST_NAME] => Глотов
+     [CREATED_BY_SECOND_NAME] => Юрьевич
+     [CREATED_BY_LOGIN] => gau@one-touch.ru
+     [CREATED_BY_WORK_POSITION] => Руководитель отдела разработки
+     [CREATED_BY_PHOTO] => 1129
+     [CREATED_DATE] => 04.03.2023 10:01:10
+     [CHANGED_BY] => 13
+     [CHANGED_DATE] => 04.03.2023 10:06:19
+     [STATUS_CHANGED_BY] => 13
+     [STATUS_CHANGED_DATE] => 04.03.2023 10:06:19
+     [CLOSED_BY] =>
+     [CLOSED_DATE] =>
+     [ACTIVITY_DATE] => 04.03.2023 10:01:10
+     [GUID] => {f362d760-609c-4226-b950-a6cbb21a5e70}
+     [XML_ID] =>
+     [MARK] =>
+     [ALLOW_CHANGE_DEADLINE] => N
+     [ALLOW_TIME_TRACKING] => Y
+     [MATCH_WORK_TIME] => N
+     [TASK_CONTROL] => Y
+     [ADD_IN_REPORT] => N
+     [GROUP_ID] => 21
+     [FORUM_TOPIC_ID] =>
+     [PARENT_ID] => 25554
+     [COMMENTS_COUNT] =>
+     [SERVICE_COMMENTS_COUNT] =>
+     [FORUM_ID] =>
+     [SITE_ID] => s1
+     [SUBORDINATE] => Y
+     [EXCHANGE_MODIFIED] =>
+     [EXCHANGE_ID] =>
+     [OUTLOOK_VERSION] => 4
+     [VIEWED_DATE] => 04.03.2023 10:07:56
+     [DEADLINE_COUNTED] => 0
+     [FORKED_BY_TEMPLATE_ID] =>
+     [FAVORITE] => N
+     [SORTING] => -2101264.7509766
+     [DURATION_PLAN_SECONDS] => 0
+     [DURATION_TYPE_ALL] => days
+     [DURATION_PLAN] => 0
+     [DURATION_TYPE] => days
+     [IS_MUTED] => N
+     [IS_PINNED] => N
+     [IS_PINNED_IN_GROUP] => N
+     [UF_CRM_TASK] =>
+     [UF_TASK_WEBDAV_FILES] => Array
+         (
+         )
+
+     [UF_MAIL_MESSAGE] =>
+     [UF_AUTO_261235705831] =>
+     [UF_AUTO_142615379319] => 03.03 — 16.03
+     [UF_AUTO_378273767768] =>
+     [UF_AUTO_159743646329] => 0
+     [UF_AUTO_288848610725] => 15
+     [UF_AUTO_210647403444] => 10
+     [AUDITORS] => Array
+         (
+         )
+
+     [ACCOMPLICES] => Array
+         (
+         )
+
+     [TAGS] => Array
+         (
+         )
+
+     [CHECKLIST] => Array
+         (
+         )
+
+     [FILES] => Array
+         (
+         )
+
+     [DEPENDS_ON] => Array
+         (
+         )
+
+ )
+
+ Array
+ (
+     [0] => Array
+         (
+             [ID] => 13475
+             [~ID] => 13475
+             [NAME] => 17.02 — 02.03
+             [~NAME] => 17.02 — 02.03
+             [ACTIVE] => Y
+             [~ACTIVE] => Y
+         )
+
+     [1] => Array
+         (
+             [ID] => 13476
+             [~ID] => 13476
+             [NAME] => 03.03 — 16.03
+             [~NAME] => 03.03 — 16.03
+             [ACTIVE] => Y
+             [~ACTIVE] => Y
+         )
+
+     [2] => Array
+         (
+             [ID] => 13485
+             [~ID] => 13485
+             [NAME] => Не установлено
+             [~NAME] => Не установлено
+             [ACTIVE] => Y
+             [~ACTIVE] => Y
+         )
+
+ )
