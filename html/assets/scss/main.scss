@@ -205,8 +205,25 @@ $Red: #B4002B;
 
   .slide-dinamic{
     width: 100%;
-    height: 700px;
+    height: 1086px;
     background-color: $MilkBlack;
+    position: relative;
+    overflow: hidden;
+    @include large{
+      height: 1036px;
+    }
+    @include x-large{
+      height: 1086px;
+    }
+
+    .slides{
+      position: absolute;
+      display: none;
+      width: 100%;
+    }
+    .active{
+      display: block;
+    }
   }
   .h-title{
     color:$MilkWhite;

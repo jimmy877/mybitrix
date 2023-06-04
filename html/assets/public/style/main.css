@@ -294,8 +294,28 @@ h1 {
 
 .slide-dinamic {
   width: 100%;
-  height: 700px;
+  height: 1086px;
   background-color: #181D24;
+  position: relative;
+  overflow: hidden;
+}
+@media (min-width: 992px) {
+  .slide-dinamic {
+    height: 1036px;
+  }
+}
+@media (min-width: 1200px) {
+  .slide-dinamic {
+    height: 1086px;
+  }
+}
+.slide-dinamic .slides {
+  position: absolute;
+  display: none;
+  width: 100%;
+}
+.slide-dinamic .active {
+  display: block;
 }
 
 .h-title {
