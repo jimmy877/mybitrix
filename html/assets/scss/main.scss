@@ -13,7 +13,7 @@
     font-style: $style;
   }
 }
-@include font-face("Moniqa","Moniqa-ExtraBoldHeading", "/html/assets/fonts/", "", 500);
+@include font-face("Moniqa","MoniqaExtraBoldHeading", "/html/assets/fonts/", "", 500);
 @include font-face("HamiltoneG","mr_HamiltoneG", "/html/assets/fonts/", "", 500);
 @include font-face("Museosanscyrl","Museosanscyrl500", "/html/assets/fonts/", "", 500);
 @include font-face("museosanscyrl-300","museosanscyrl-300", "/html/assets/fonts/", "", 300);

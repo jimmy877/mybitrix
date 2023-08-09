@@ -111,7 +111,7 @@
     </section>
 
     <section class="slide-dinamic row">
-        <slider  class=" col-12"></slider>
+        <slider class=" col-12"></slider>
     </section>
 
     <footer>
@@ -138,9 +138,12 @@
                <div class="col-md-4 "><div class=" bg-light mystyle">столбец</div></div>
            </div>
        </div> -->
-<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/http-vue-loader"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@3.0.2/dist/vue.global.js"></script>
 <script type="module" src = "assets/public/js/main.js"></script>
+
+<script type="module" src = "assets/public/js/components/slider.js"></script>
+
 
 
 

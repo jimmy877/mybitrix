@@ -1,5 +1,5 @@
 import scopes from "../scopes.js";
-import * as VueSlickCarousel from '/slick/vue-slick-carousel.umd.min.js';
+import {VueSlickCarousel}  from './slick.js';
 export default {
     data(){
         return{
@@ -9,17 +9,20 @@ export default {
     },
     props:[],
     components:{
-        VueSlickCarousel,
+        //"VueSlickCarousel":httpVueLoader('vue-slick-carousel'),
+        VueSlickCarousel ,
+
     },
     template:`
         <div>
-            <VueSlickCarousel :arrows="true" :dots="true">
-                  <div v-for="item in slides" :index="item.id" @click="touch" :class="'slides slide-'+item.id">
-                        <div class="h-title">{{ item.title }}</div>
-                        <div class="h-sub-title">{{ item.subTitle }}</div>
-                        <img :src="item.img">
-            </VueSlickCarousel>       
-              </div>
+            <slick :arrows="true" :dots="true" ref="slick">
+
+            </slick>
+            <div v-for="item in slides" :index="item.id" @click="touch" :class="'slides slide-'+item.id">
+              <div class="h-title">{{ item.title }}</div>
+              <div class="h-sub-title">{{ item.subTitle }}</div>
+              <img :src="item.img">
+            </div>
         </div>
     `,
     methods:{

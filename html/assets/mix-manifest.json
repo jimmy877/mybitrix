@@ -1,4 +1,5 @@
 {
-    "/public/style/main.css": "/public/style/main.css",
+    "/public/js/output/index/main.js": "/public/js/output/index/main.js",
+    "/public/js/output/secondpage/main.js": "/public/js/output/secondpage/main.js",
     "/public/bootstrap/bootstrap.css": "/public/bootstrap/bootstrap.css"
 }

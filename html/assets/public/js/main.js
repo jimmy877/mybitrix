@@ -1,7 +1,6 @@
 import ButtonCounter from "./components/ButtonCounter.js";
 import Component2 from "./components/component2.js";
 import Slider from  "./components/slider.js";
-import * as VueSlickCarousel from './components/slick/vue-slick-carousel.umd.min.js'
 const mainPage = Vue.createApp({
     data() {
         return {
@@ -16,9 +15,12 @@ const mainPage = Vue.createApp({
     },
     components:{
         //"button-counter":ButtonCounter,
-        "component-2":Component2,
+       // "component-2":Component2,
+       //"VueSlickCarousel": VueSlickCarousel,
+        //"VueSlickCarousel":httpVueLoader('./components/slick2/VueSlickCarousel.vue'),
         "slider": Slider,
-        "VueSlickCarousel": VueSlickCarousel,
+        //"slider-component":httpVueLoader('/components/SliderComponent.vue'),
     },
 });
+//mainPage.component("slider-component", httpVueLoader('/components/SliderComponent.vue'));
 mainPage.mount('#app');
